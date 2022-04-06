@@ -67,11 +67,20 @@ function filter(array) {
     }
   }
   array.forEach(recorrer);
+  
+  // FORMA 2 DE HACERLO:
   // array.forEach(function (elemento){
   //   if (elemento[0] === "a" || elemento[0] === "A") {
   //     nuevoArray.push(elemento);
   //   }
   // })
+
+  // FORMA 3 DE HACERLO:
+  // for (let i = 0; i < array.length; i++) {
+  //   if (array[i][0] === "a" || array[i][0] === "A") {
+  //     nuevoArray.push(array[i]);
+  //   }
+  // }
   return nuevoArray;
 }
 
