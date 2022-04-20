@@ -4,11 +4,10 @@
     font-weight: bold;
     text-align: center;
     background-color: black;
-    /* color: rgba(50, 100, 75, 1) ; */
+    /* color: rgba(50, 100, 75, 1) ; para generar el cualquier color deseado*/
     color: lightgray;
     margin-top: 100px;
     margin-left: 200px;
-    /* padding: 50px; */
     margin-right: 200px;   
     display: flex; 
     align-items: center;
@@ -54,7 +53,7 @@
     border-bottom-color: gray;
     border-style: solid;
     border-width: 2px;
-    border-left: 1px; /* las dos lineas de border si las saco bye todo*/
+    border-left: 1px; 
     border-top: 1px;
     padding-top: 0.1px;
     padding-left: 15px;
