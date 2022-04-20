@@ -1,0 +1,39 @@
+body {
+    background-image: url(https://thumbs.dreamstime.com/b/fondo-de-degradado-blanco-y-gris-estilo-geom%C3%A9trico-malla-tri%C3%A1ngulos-plantilla-mosaico-para-su-dise%C3%B1o-ilustraci%C3%B3n-del-vector-162370914.jpg);
+    background-size: 100%;
+}
+
+#thirdDiv {
+    overflow: auto; /* - En vez de estar poniendo la altura, con este comando lo encuadra solo que que tenga nuetrza box*/
+    /* height: 600px;  */
+    width: 500px; 
+    background: grey; 
+    padding: 50px; 
+    border-width: 10px; 
+    border-color: black; 
+    border-style: double;
+}
+.centrando {
+    /* display: -webkit-flex; */
+    display: flex;
+    /* -webkit-align-item: center; */
+    align-items: center;
+    /* -webkit-justify-content: center; */
+    justify-content: center;
+}
+
+.divClass {
+    text-align: center; /* a mi parecer queda mas lindo alineando el texto de esta forma */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+h1 {color:darkmagenta}
+
+#spanId {
+    font-size: 18px; 
+    margin: 50px
+}
+
+img {width: 400px;
+}
